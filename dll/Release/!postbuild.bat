@@ -1,0 +1,15 @@
+@ECHO OFF
+CD %~dp0
+copy MAME32.dll "..\..\dlls\"
+copy MAME32.dll "..\..\C#\bin\Debug\"
+copy MAME32.dll "..\..\VB.NET\bin\Debug\"
+copy MAME32.dll "..\..\Delphi\"
+copy MAME32.dll "..\..\C++\Release"
+copy MAME32.lib "..\..\C++\"
+copy MAME64.dll "..\..\dlls\"
+copy MAME64.dll "..\..\C#\bin\Debug\"
+copy MAME64.dll "..\..\VB.NET\bin\Debug\"
+copy MAME64.dll "..\..\Delphi\"
+copy MAME64.dll "..\..\C++\Release"
+copy MAME64.lib "..\..\C++\"
+copy ..\MAME.h "..\..\C++"
