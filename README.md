@@ -18,7 +18,7 @@ To enable MAME's output you will need to edit your mame.ini file with the follow
 output                    windows
 ```
 
-NOTE: Alternatively you can set this value to 'network' to use the network output system
+NOTE: Alternatively you can set this value to 'network' to use the network output system. In this case make sure you initialize MAME Interop with the `useNetworkOutput` parameter set to true.
 
 ## Source Code
 
